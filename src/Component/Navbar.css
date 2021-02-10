@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+
+  /* Animation */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_black {
+  background-color: rgb(12, 17, 27, 0.9);
+}
+
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+
+  object-fit: contain;
+}
+
+.login_button {
+  position: fixed;
+  right: 20px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  background-color: rgb(51, 51, 51, 0.8);
+}
+.login_button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+@media (min-width: 350px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    z-index: 1;
+
+    /* Animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+  }
+  .nav_logo {
+    position: fixed;
+    left: 10px;
+    width: 150px;
+    margin-top: -50px;
+    object-fit: contain;
+  }
+}
